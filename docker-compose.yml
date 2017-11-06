@@ -47,8 +47,10 @@ pinpoint-web:
   restart: always
   expose:
     - "8080"
+    - "9997"
   ports:
     - "3080:8080"
+    - "9997:9997"
   links:
     - pinpoint-hbase:hbase
 #    - pinpoint-mysql:mysql
