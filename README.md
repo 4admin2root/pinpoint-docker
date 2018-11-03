@@ -1,9 +1,9 @@
-# pinpooint-docker
-pinpooint  docker
+# pinpoint-docker
+pinpoint  docker
 
 ## run
 ```
-wget https://raw.githubusercontent.com/4admin2root/pinpooint-docker/master/docker-compose.yml
+wget https://raw.githubusercontent.com/4admin2root/pinpoint-docker/master/docker-compose.yml
 docker-compose up -d
 ```
 
